@@ -1,0 +1,24 @@
+# Ignore the virtual environment
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Python cache & bytecode
+__pycache__/
+dataset/__pycache__/
+*.pyc
+*.pyo
+
+# Configs or secrets
+config.py
+.env
+
+# Logs or temp files
+*.log
+*.sqlite
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
